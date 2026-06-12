@@ -1,55 +1,46 @@
 # Haris Mekic
 
-**Independent builder & researcher of production agentic systems — solo, with AI as co-engineer.**
+### Architect of **Apex Prime** — the CONSUME architecture
 
-I design and ship local-first, bring-your-own-model agent platforms, then audit them honestly from the outside. One person, working alongside frontier models — not a funded team. I publish outcomes you can verify and withhold the build-method that makes them defensible.
+> **"It's not a harness. It's CONSUME."**
 
----
-
-## What I work on
-
-I build **gate-first agentic operating-system shells**: a workforce of model-backed agents that a human keeps on a dial, where every irreversible action passes a human-in-the-loop gate before it runs. The intelligence is brought by the operator (bring-your-own-model); the platform supplies the controllable surface — chat, an agent grid, an approval queue, per-agent autonomy levels, file-based memory, append-only audits, and a fail-closed quality guard.
-
-The thesis I keep testing in public: in a category where the agent harness and the open `SKILL.md` capability format are now **commodities**, defensibility lives in the layers most tools lack by default — a deep human-in-the-loop gate layer, sealed/audited output boundaries, an inspectable file-based memory, a fail-closed retention guard, and a disciplined build-and-verify development loop.
+I'm a solo architect. I designed an agentic operating system in which the AI model is a replaceable engine, the ecosystem is raw material, and autonomy answers to a mechanical conscience. One person, working with Claude (Anthropic) — no team, no funding. Everything below is published, measured, and reproducible.
 
 ---
 
-## Current research
+## The stance
 
-### [`agentic-os-audit`](https://github.com/Haris88m/agentic-os-audit) — an independent third-party technical audit
+Most agent platforms ship a **harness** — an environment that optimizes agents inside it. My architecture inverts the relationship: harnesses, models, frameworks, and the open-source ecosystem are **consumed** — one-way, through a license-and-value intake gate, rebuilt as owned modules, run behind human gates (an autonomy dial where high-risk actions queue for a human **even at maximum autonomy**), with plain files as memory and sealed boundaries on the way out.
 
-A full outside-auditor review of a production agentic platform, written to auditor-integrity standard: **every non-trivial claim labelled VERIFIED / PARTIAL / UNVERIFIED**, no superlatives, asymmetry weighted honestly (one person + AI vs funded teams). It inventories capabilities against an already-published open repo, maps what was consumed from open source and what was deliberately not, grounds the comparison in the public research literature, and works the cost/scalability math out loud with stated assumptions. Where the public code does not back a claim, it says so plainly.
+The proof is the record:
 
-### [`servari-open`](https://github.com/Haris88m/servari-open) — the open framework
+| Measured                                                                                                                                                        |                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| **10.533 billion tokens** of engineering in 19 recorded build days (95.6% cache-read)                                                                           | system's own meter                    |
+| **165 capability modules · 247 logged build-and-verify iterations · 91 permanent failure immunities**                                                           | live substrate walk, method published |
+| **2026-06-11** — a provider announced a billing change; my 9-agent fleet was running on a different AI engine **the same day**, verified live 9/9               | the BYOM knob, under a real deadline  |
+| **2026-06-12** — consumed the 213K-star harness flagship: **all 64 of its agents**, license-verified, converted into my architecture's schema, every test green | the thesis, demonstrated              |
 
-An **Apache-2.0**, dependency-free shell: a React front end over a pure standard-library Python server on `127.0.0.1` (same-origin, no CORS), bring-your-own-model. A fresh clone renders every panel from seed data — runnable by a stranger. The published surface includes the BYOM router, the autonomy-dial gate layer (high-risk actions queue for human approval **even at maximum autonomy**), the allow-listed action runner (not a raw shell), file-based memory, an append-only audit + token meter, and a fail-closed local server. It publishes the verifiable shell and interfaces; the orchestration intelligence stays private — a deliberate, asymmetric line.
+## The repositories
 
----
+### [`agentic-os-audit`](https://github.com/Haris88m/agentic-os-audit) — the professional engineering assessment
 
-## How I work: I consume, I do not harness
+The architecture at pattern level, an implementation guide for teams, **five reproducible simulations** (stdlib Python, deterministic, one command), the **full-data edition** with every number measured live from the real system — and [**"Fable, Unsealed"**](https://github.com/Haris88m/agentic-os-audit/blob/master/assessment/07-fable-unsealed.md): the AI's own unsoftened opinion of the system it runs inside, weaknesses included, published exactly as written. Every claim labeled VERIFIED / PARTIAL / SIMULATED / MEASURED. No superlatives, by standing policy.
 
-Other tools **ship a harness**. My approach is the opposite: I **consume**.
+### [`servari-open`](https://github.com/Haris88m/servari-open) — the open reference shell (Apache-2.0)
 
-I consume patterns one-way from permissively-licensed open source — re-implement the *idea* inside my own owned stack (standard-library Python, not the vendors' code), keep a segregated reference copy for provenance, and run a real test before anything joins the system. Vendor source sits in clearly-marked reference directories that the running code never imports. Inbound consumption is real and frequent; outbound is constrained to a verifiable shell plus interfaces — never the method.
+A dependency-free, gate-first, bring-your-own-model agent OS: pure standard-library Python server, autonomy dial L0–L5 with the always-gate-high-risk floor, allow-listed action runner, file memory, append-only audits. A stranger's clean-room run passes **8/8 verification, 160/160 tests**. Branch [**`consume-ecc`**](https://github.com/Haris88m/servari-open/tree/consume-ecc) holds the consume demo — the harness flagship as raw material, opt-in.
 
-Consuming the commodity part of the stack (harness patterns, edit-safety, context-discipline, trajectory-eval) is the rational move, not an admission. The defensibility is spent on the part that is composed and gated.
+## Built with Claude
 
----
-
-## Built with
-
-`Claude Opus 4.8` (lead engineering & authoring) · `Claude Sonnet`, `OpenAI GPT`, `Google Gemini` (cross-checks) · Python (stdlib) · React + TypeScript · OpenAI-compatible model routing
-
-I work with these models as collaborators and adversarial reviewers — the most credible review datapoint I keep is a claim being **challenged by a less-correlated model and conceded/corrected** rather than defended.
-
----
+The architecture, the CONSUME stance, and the autonomy-policy design are mine. The implementation, the assessment, and the simulations were written, tested, and mechanically verified by [Claude](https://claude.com/claude-code) (Anthropic) under my human-gated workflow — the same gate layer that blocked Claude from publishing this work until I said push. I trained a behavioral layer on top of a frontier model without touching a single weight; the model's own account of that is in the repo, signed.
 
 ## Posture
 
-- **Outcomes shared, build-method withheld.** I publish what can be verified and reproduced; I keep the proprietary composition private. That is a competitive-defensibility choice, stated openly.
-- **Honesty is the deliverable.** Cost figures I cite are **API-equivalent cost-to-serve, not cash** (the work runs largely on a flat-rate subscription). Multipliers carry their scope. Counts are an inventory, not a validation. Unfinished tracks are labelled unfinished.
-- **Gates over trust.** Reversible work moves fast; the actions that bite — deploy, send, spend, publish, merge, secrets — always wait for a human. The gate is mechanical, not a prompt instruction.
+- **Outcomes shared, build-method withheld** — stated openly, as a competitive choice.
+- **Honesty is the deliverable.** Cost figures are API-equivalent cost-to-serve, not cash. Counts are inventories until validated. Unfinished tracks are labeled unfinished — the fine-tune regression stays in the record.
+- **Gates over trust.** The actions that bite — deploy, send, spend, publish — always wait for a human. The gate is mechanical, not a prompt instruction.
 
 ---
 
-> Built by one person with AI assistance. The maturity of larger, funded competitors is a roadmap to learn from — not a deficit to spin.
+📍 MEKreflect · [mekreflect.com](https://mekreflect.com) · honest engineering, on the record

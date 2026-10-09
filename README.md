@@ -24,6 +24,10 @@ I distinguish source implementation, fresh tests, historical execution and actua
 
 The work I want to do next is business-owned AI operations. Understand the process, build alongside its owner, measure the complete result and leave the team able to run it.
 
-On 9 October 2026, a clean checkout of the public reference shell passed 160 tests and eight separate verification checks. The provider tests use mocks; one verifier performs an isolated local HTTP smoke check. These results prove their stated local contracts, not live model quality or production security.
+On 9 October 2026, the initial clean-checkout review of the public reference shell passed 160 tests and eight separate verification checks. A later review that day hardened its risk-score input boundary. The current suite passes 384 tests: the original 160 plus 224 parametrized input-domain, valid-boundary and CLI regressions. The eight-check verifier also passes. Provider fixtures are mocked, and the HTTP smoke check uses isolated synthetic data. These results establish their stated local contracts, not live model quality, production security, user adoption or measured business ROI.
+
+The [current public CI run](https://github.com/Haris88m/servari-open/actions/runs/37953531189), tied to the published implementation commit, completed successfully on 9 October 2026 for Python tests, verification and the UI build with its production dependency audit. A passing dependency audit is a dated package check, not certification of the whole application.
 
 [Explore my professional portfolio and implementation cases](https://haris-mekic-profile.pages.dev/)
+
+[Public evidence data and download formats](https://haris-mekic-profile.pages.dev/data/)

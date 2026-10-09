@@ -1,46 +1,29 @@
 # Haris Mekic
 
-### Architect of **Apex Prime** — the CONSUME architecture
+## Applied AI systems and operational judgement
 
-> **"It's not a harness. It's CONSUME."**
+I turn operational requirements into working systems. My background spans country-office and regional operations, finance processes, procurement and EU project delivery. I now bring that experience into AI-assisted application development.
 
-I'm a solo architect. I designed an agentic operating system in which the AI model is a replaceable engine, the ecosystem is raw material, and autonomy answers to a mechanical conscience. One person, working with Claude (Anthropic) — no team, no funding. Everything below is published, measured, and reproducible.
+I own the problem definition, architecture and implementation direction. I work with Claude Code, Codex and VS Code to build, inspect and test the software. Human-directed, AI-assisted engineering is part of the method, not something I hide.
 
----
+## What I build
 
-## The stance
+Evidence-linked workflows, bounded context, specialist analysis and model-provider interfaces. I care about what happens when a source is missing, a model fails or an action needs human authority. A generated answer is not the same as a completed process.
 
-Most agent platforms ship a **harness** — an environment that optimizes agents inside it. My architecture inverts the relationship: harnesses, models, frameworks, and the open-source ecosystem are **consumed** — one-way, through a license-and-value intake gate, rebuilt as owned modules, run behind human gates (an autonomy dial where high-risk actions queue for a human **even at maximum autonomy**), with plain files as memory and sealed boundaries on the way out.
+My architectural stance is practical. The model should be replaceable, existing tools should be reused where they fit, and consequential actions need explicit boundaries. Tests and audit records should make those boundaries inspectable.
 
-The proof is the record:
+## Public work
 
-| Measured                                                                                                                                                        |                                       |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| **10.533 billion tokens** of engineering in 19 recorded build days (95.6% cache-read)                                                                           | system's own meter                    |
-| **165 capability modules · 247 logged build-and-verify iterations · 91 permanent failure immunities**                                                           | live substrate walk, method published |
-| **2026-06-11** — a provider announced a billing change; my 9-agent fleet was running on a different AI engine **the same day**, verified live 9/9               | the BYOM knob, under a real deadline  |
-| **2026-06-12** — consumed the 213K-star harness flagship: **all 64 of its agents**, license-verified, converted into my architecture's schema, every test green | the thesis, demonstrated              |
+[Local-first reference shell](https://github.com/Haris88m/servari-open) demonstrates a bring-your-own-model interface, a human verification queue, allow-listed actions and explicit no-provider behaviour. It includes runnable verification and synthetic demo data. It is a reference implementation, not a claim of a production multi-agent execution service.
 
-## The repositories
+[Architecture and reproducible simulations](https://github.com/Haris88m/agentic-os-audit) publishes the design, assumptions, methods and limits. The assessment and simulations were produced with Claude under my direction. They are not an independent third-party audit, and simulated results are not realised business ROI.
 
-### [`agentic-os-audit`](https://github.com/Haris88m/agentic-os-audit) — the professional engineering assessment
+## Evidence over impressive numbers
 
-The architecture at pattern level, an implementation guide for teams, **five reproducible simulations** (stdlib Python, deterministic, one command), the **full-data edition** with every number measured live from the real system — and [**"Fable, Unsealed"**](https://github.com/Haris88m/agentic-os-audit/blob/master/assessment/07-fable-unsealed.md): the AI's own unsoftened opinion of the system it runs inside, weaknesses included, published exactly as written. Every claim labeled VERIFIED / PARTIAL / SIMULATED / MEASURED. No superlatives, by standing policy.
+I distinguish source implementation, fresh tests, historical execution and actual user outcomes. Token volume, capability inventories and passing simulations do not establish useful adoption or commercial impact.
 
-### [`servari-open`](https://github.com/Haris88m/servari-open) — the open reference shell (Apache-2.0)
+The work I want to do next is business-owned AI operations. Understand the process, build alongside its owner, measure the complete result and leave the team able to run it.
 
-A dependency-free, gate-first, bring-your-own-model agent OS: pure standard-library Python server, autonomy dial L0–L5 with the always-gate-high-risk floor, allow-listed action runner, file memory, append-only audits. A stranger's clean-room run passes **8/8 verification, 160/160 tests**. Branch [**`consume-ecc`**](https://github.com/Haris88m/servari-open/tree/consume-ecc) holds the consume demo — the harness flagship as raw material, opt-in.
+On 9 October 2026, a clean checkout of the public reference shell passed 160 tests and eight separate verification checks. The provider tests use mocks; one verifier performs an isolated local HTTP smoke check. These results prove their stated local contracts, not live model quality or production security.
 
-## Built with Claude
-
-The architecture, the CONSUME stance, and the autonomy-policy design are mine. The implementation, the assessment, and the simulations were written, tested, and mechanically verified by [Claude](https://claude.com/claude-code) (Anthropic) under my human-gated workflow — the same gate layer that blocked Claude from publishing this work until I said push. I trained a behavioral layer on top of a frontier model without touching a single weight; the model's own account of that is in the repo, signed.
-
-## Posture
-
-- **Outcomes shared, build-method withheld** — stated openly, as a competitive choice.
-- **Honesty is the deliverable.** Cost figures are API-equivalent cost-to-serve, not cash. Counts are inventories until validated. Unfinished tracks are labeled unfinished — the fine-tune regression stays in the record.
-- **Gates over trust.** The actions that bite — deploy, send, spend, publish — always wait for a human. The gate is mechanical, not a prompt instruction.
-
----
-
-📍 MEKreflect · [mekreflect.com](https://mekreflect.com) · honest engineering, on the record
+[Explore my professional portfolio and implementation cases](https://haris-mekic-profile.pages.dev/)

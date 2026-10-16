@@ -16,6 +16,7 @@ My current research examines context loss, conflicting source versions, decision
 
 | Repository | What is available |
 | --- | --- |
+| [MEKreflect research labs](https://github.com/Haris88m/mekreflect-labs) | OBSERVER8 context-handoff evaluators, operational completion and spending controls, and a reproducible visual-production pipeline. Source provenance and 104 offline tests, including actual video encode/decode. |
 | [MEKreflect research platform](https://github.com/Haris88m/mekreflect-research) | The research website, attributed AI benchmark importer, operational evaluation records and Cloudflare backend. A clean source release with local tests. |
 | [ParrotCore research](https://github.com/Haris88m/parrotcore-research) | A Python semantic-behavior runtime, simulated creature profiles, trajectory and fault models, with tested installation and package resources. |
 | [AI enablement workbench](https://github.com/Haris88m/ai-enablement-workbench) | Runnable offline examples of evidence retrieval, receipt checks, context survival and provider-neutral messages, with a source map distinguishing existing code from adapted examples. |
@@ -24,7 +25,7 @@ My current research examines context loss, conflicting source versions, decision
 
 I distinguish an implemented mechanism, a local test, a recorded model experiment and a result someone has achieved in their work. Those are different kinds of evidence. Each project should make clear which one it provides.
 
-The workbench's 16 offline tests were rerun on 16 October 2026. The research platform passes 1,187 release assertions and ten SQLite-backed API tests in its public inspection copy. ParrotCore passes 56 software tests, including installation into a fresh environment; physical hardware validation is separate. The [SERVARI CI checkpoint](https://github.com/Haris88m/servari-open/actions/runs/38926131577) completed successfully on 16 October 2026 against commit `e9a6fbf`. Its Python verification and UI checks are an implementation checkpoint, separate from live-model evaluation.
+The workbench's 16 offline tests were rerun on 16 October 2026. The research platform passes 1,438 release assertions, 42 source-linked case-study checks and ten SQLite-backed API tests in its public inspection copy. The research labs pass 104 offline tests. ParrotCore passes 56 software tests, including installation into a fresh environment; physical hardware validation is separate. The [SERVARI CI checkpoint](https://github.com/Haris88m/servari-open/actions/runs/38926131577) completed successfully on 16 October 2026 against commit `e9a6fbf`. Its Python verification and UI checks are an implementation checkpoint, separate from live-model evaluation.
 
 I am interested in research and delivery teams that want to connect AI capability with the reality of organisations, especially the people, procedures and information that determine whether a system is useful.
 

@@ -1,33 +1,34 @@
 # Haris Mekic
 
-## Applied AI systems and operational judgement
+I build from the work people need to do.
 
-I turn operational requirements into working systems. My background spans country-office and regional operations, finance processes, procurement and EU project delivery. I now bring that experience into AI-assisted application development.
+My background is in institutional operations, EU project delivery, budgets, procurement and coordinating experts. I use that experience to ask practical questions of AI: what context does it need, which decision can it make, what must be checked, and can the next person continue the work?
 
-I own the problem definition, architecture and implementation direction. I work with Claude Code, Codex and VS Code to build, inspect and test the software. Human-directed, AI-assisted engineering is part of the method, not something I hide.
+I founded [MEKreflect](https://mekreflect.com/) to develop those questions through applied research, implementation and collaboration. I define the problem, work with Claude and Codex to build and inspect software, and review the results. The code is AI-assisted. The operational direction, the questions and the responsibility for what I publish are mine.
 
-## What I build
+## My working method
 
-Evidence-linked workflows, bounded context, specialist analysis and model-provider interfaces. I care about what happens when a source is missing, a model fails or an action needs human authority. A generated answer is not the same as a completed process.
+SOAP means **Super Operations AI Procedures**. I bring source knowledge, role-based instructions, specialist workers, explicit handoffs and human review into the same process. I want people to become more capable with the system, including knowing when to challenge its answer.
 
-My architectural stance is practical. The model should be replaceable, existing tools should be reused where they fit, and consequential actions need explicit boundaries. Tests and audit records should make those boundaries inspectable.
+My current research examines context loss, conflicting source versions, decision authority and valid work that gets blocked unnecessarily. The [operational evaluations](https://mekreflect.com/evaluations/) show recorded experiments and their limits. The [research observatory](https://mekreflect.com/benchmarks/) connects attributed external model measurements with these more specific operational questions.
 
-## Public work
+## Work you can inspect
 
-[Local-first reference shell](https://github.com/Haris88m/servari-open) demonstrates a bring-your-own-model interface, a human verification queue, allow-listed actions and explicit no-provider behaviour. It includes runnable verification and synthetic demo data. It is a reference implementation, not a claim of a production multi-agent execution service.
+| Repository | What is available |
+| --- | --- |
+| [MEKreflect research platform](https://github.com/Haris88m/mekreflect-research) | The research website, attributed AI benchmark importer, operational evaluation records and Cloudflare backend. A clean source release with local tests. |
+| [AI enablement workbench](https://github.com/Haris88m/ai-enablement-workbench) | Runnable offline examples of evidence retrieval, receipt checks, context survival and provider-neutral messages, with a source map distinguishing existing code from adapted examples. |
+| [SERVARI reference shell](https://github.com/Haris88m/servari-open) | A local model interface, human verification queue, bounded action runner and synthetic demonstration data. Includes verification and tests. |
+| [Architecture studies](https://github.com/Haris88m/agentic-os-audit) | Historical design notes and deterministic simulations with explicit assumptions. These are scenarios to inspect, not measured business returns or an independent audit. |
 
-[Architecture and reproducible simulations](https://github.com/Haris88m/agentic-os-audit) publishes the design, assumptions, methods and limits. The assessment and simulations were produced with Claude under my direction. They are not an independent third-party audit, and simulated results are not realised business ROI.
+I distinguish an implemented mechanism, a local test, a recorded model experiment and a result someone has achieved in their work. Those are different kinds of evidence. Each project should make clear which one it provides.
 
-## Evidence over impressive numbers
+The workbench's 16 offline tests were rerun on 16 October 2026. The research platform passes 1,187 release assertions and ten SQLite-backed API tests in its public inspection copy. The [SERVARI CI checkpoint](https://github.com/Haris88m/servari-open/actions/runs/37953531189) completed successfully on 9 October 2026 against commit `bc1aca1`. Its Python verification and UI checks are a dated implementation checkpoint, separate from live-model evaluation.
 
-I distinguish source implementation, fresh tests, historical execution and actual user outcomes. Token volume, capability inventories and passing simulations do not establish useful adoption or commercial impact.
+I am interested in research and delivery teams that want to connect AI capability with the reality of organisations, especially the people, procedures and information that determine whether a system is useful.
 
-The work I want to do next is business-owned AI operations. Understand the process, build alongside its owner, measure the complete result and leave the team able to run it.
+[MEKreflect research and consultations](https://mekreflect.com/) · [Professional portfolio](https://haris-mekic-profile.pages.dev/) · [Research reading desk](https://mekreflect.com/papers/)
 
-On 9 October 2026, the initial clean-checkout review of the public reference shell passed 160 tests and eight separate verification checks. A later review that day hardened its risk-score input boundary. The current suite passes 384 tests: the original 160 plus 224 parametrized input-domain, valid-boundary and CLI regressions. The eight-check verifier also passes. Provider fixtures are mocked, and the HTTP smoke check uses isolated synthetic data. These results establish their stated local contracts, not live model quality, production security, user adoption or measured business ROI.
+Company enquiries: [info@mekreflect.com](mailto:info@mekreflect.com)
 
-The [current public CI run](https://github.com/Haris88m/servari-open/actions/runs/37953531189), tied to the published implementation commit, completed successfully on 9 October 2026 for Python tests, verification and the UI build with its production dependency audit. A passing dependency audit is a dated package check, not certification of the whole application.
-
-[Explore my professional portfolio and implementation cases](https://haris-mekic-profile.pages.dev/)
-
-[Public evidence data and download formats](https://haris-mekic-profile.pages.dev/data/)
+Direct contact: [harism@mekreflect.com](mailto:harism@mekreflect.com)
